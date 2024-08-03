@@ -40,7 +40,3 @@ errors = str(input("Deseja que erros sejam exibidos?[y/n]")).lower().strip()
 pn = open(f"{word}", "rt")
 
 rd(host, pn, errors)
-
-thread1 = threading.Thread(target=rd, args=50)
-thread2 = threading.Thread(target=rd, args=50)
-thread3 = threading.Thread(target=rd, args=50)
